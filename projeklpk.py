@@ -4,7 +4,7 @@ def MyBG_colour(wch_colour):
     my_colour = f"<style> .stAPP {{background-color: {wch_colour};}} </style>"
     st.markdown(my_colour, unsafe_allow_html=True)
     
-MyBG_colour("DBE9FA")
+MyBG_colour("#DBE9FA")
 
 #Tampilan Halaman Web
 add_selectbox = st.sidebar.selectbox("Menu :mag:", ("Beranda", "Normalitas", "Molaritas",  "Perhitungan Normalitas", "Perhitungan Molaritas"))
